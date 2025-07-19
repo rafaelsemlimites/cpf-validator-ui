@@ -44,8 +44,8 @@
 </template>
 
 <script setup>
-// Component responsável por abstrair a lógica de validação
-import { useCpfValidator } from '@/components/useCpfValidator'
+// composable responsável por abstrair a lógica de validação
+import { useCpfValidator } from '@/composable/useCpfValidator'
 const { cpf, result, loading, validate } = useCpfValidator()
 
 function formatCpf(event) {
