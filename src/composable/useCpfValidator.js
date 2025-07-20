@@ -31,7 +31,7 @@ export function useCpfValidator() {
     } catch (error) {
       result.value = {
         isValid: false,
-        message: 'Erro inesperado ao validar CPF.'
+        message: error?.response?.data?.message || 'Erro inesperado ao validar CPF.'
       }
     } finally {
       loading.value = false

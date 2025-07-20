@@ -1,5 +1,3 @@
-// src/services/cpfService.js
-
 import { httpClient } from './httpClient'
 
 /**
