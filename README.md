@@ -1,5 +1,31 @@
-# Vue 3 + Vite
+# 🔎 CPF Validator UI
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Frontend web moderno desenvolvido em **Vue 3**, utilizando **Vuetify 3**, **Vite** e **Pinia**, que consome uma API REST para **validação de CPF** (Cadastro de Pessoa Física - Brasil).
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## 📦 Tecnologias
+
+- [Vue 3](https://vuejs.org/) – Framework progressivo
+- [Vuetify 3](https://next.vuetifyjs.com/) – UI framework com Material Design
+- [Vite](https://vitejs.dev/) – Build tool rápida
+- [Pinia](https://pinia.vuejs.org/) – Gerenciador de estado moderno
+- [Axios](https://axios-http.com/) – Cliente HTTP
+- [Vue Router](https://router.vuejs.org/) – Gerenciamento de rotas (SPA)
+- [Composable Functions](https://vuejs.org/guide/reusability/composables.html) – Lógica reativa reutilizável
+
+---
+
+## ⚙️ Como rodar o projeto
+
+```bash
+# 1. Clonar o repositório
+git clone https://github.com/seu-usuario/cpf-validator-ui.git
+cd cpf-validator-ui
+
+# 2. Instalar dependências
+npm install
+
+# 3. Rodar o projeto
+npm run dev
+
+# Acesse: http://localhost:5173
+
